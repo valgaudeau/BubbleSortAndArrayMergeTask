@@ -25,9 +25,9 @@
         public static void BubbleSort(int[] arr)
         {
             int n = arr.Length;
-            for (int i = 0; i < n - 1; i++)
+            for (int i = 0; i < n - 1; i++) 
             {
-                for (int j = 0; j < n - i - 1; j++)
+                for (int j = 0; j < n - i - 1; j++) // the biggest number will always go the last position
                 {
                     if (arr[j] > arr[j + 1])
                     {
